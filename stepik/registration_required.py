@@ -6,8 +6,6 @@ try:
     link = "http://suninjuly.github.io/registration1.html"
     browser = webdriver.Chrome()
     browser.get(link)
-
-
     element1 = browser.find_element(By.XPATH, "//input[@placeholder='Input your first name']")
     element1.send_keys("Test")
     element2 = browser.find_element(By.XPATH, "//input[@placeholder='Input your last name']")
